@@ -250,6 +250,7 @@ st.info("""
 - Include city and province
 - Postal code is optional but recommended
 - Use "ON" for Ontario (not "Ont." or "Ontario")
+- **⚠️ Exclude unit/apartment numbers** (e.g., don't use "123-456 Main St" or "123 Main St Unit 3" - just "123 Main St")
 """)
 
 address_input = st.text_input(
